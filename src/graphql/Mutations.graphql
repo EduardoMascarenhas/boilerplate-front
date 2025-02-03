@@ -1,0 +1,21 @@
+mutation SignIn($SignInInput: SigninInput!) {
+  signIn(data: $SignInInput) {
+    user {
+      id
+      email
+      name
+    }
+    token
+  }
+}
+
+mutation SignInAdmin($SignInAdminInput: SigninInput!) {
+  signInAdmin(data: $SignInAdminInput) {
+    admin {
+      id
+      email
+      name
+    }
+    token
+  }
+}

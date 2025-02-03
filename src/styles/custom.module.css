@@ -1,0 +1,22 @@
+/* inicio dos customizaveis */
+.pr {
+    padding-right: var(--pr, 0);
+    /* Default to 0 if not set */
+}
+
+.pl {
+    padding-left: var(--pl, 0);
+    /* Default to 0 if not set */
+}
+
+.mr {
+    margin-right: var(--mr, 0);
+    /* Default to 0 if not set */
+}
+
+.ml {
+    margin-left: var(--ml, 0);
+    /* Default to 0 if not set */
+}
+
+/* fim dos customizaveis */
